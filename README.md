@@ -8,7 +8,7 @@ HTML - CSS - Javascript
 
 Open PianoMan.html and enjoy!
 
-<img src="images/image-1.png">
+<img src="images/image-1.PNG">
 
 
 ## Author ✒️
