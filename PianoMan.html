@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>PianoMan</title>
+	<style>
+		body{user-select:none; text-align: center; margin-top: 5%;
+}
+		rect{stroke:black;stroke-width:2;cursor:pointer;}
+		text{font-family:sans-serif;font-size:1.2em;font-weight:bold;text-anchor:middle;fill:white;cursor:pointer;}
+		text.white{fill:black;}
+		.white {transition-duration:0.5s;fill:white;}
+		.black {transition-duration:0.5s;fill:black;}
+		.activa {transition-duration:0.1s;fill:#a0a0a0;}
+	</style>
+	<script src="Touch.js"></script>
+	<script defer src="PianoMan.js"></script>
+</head>
+
+<body onload="_init()">
+	<svg id="piano" width="632" height="220"></svg>
+</body>
+</html>
